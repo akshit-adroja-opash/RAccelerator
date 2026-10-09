@@ -122,10 +122,9 @@ export const siteContent = {
     logoText: "RAccelerator",
     badge: "Deterministic AI",
     links: [
-      { label: "Product", href: "#features" },
-      { label: "How it works", href: "#how-it-works" },
-      { label: "Why Deterministic", href: "#deterministic" },
-      { label: "Traceability", href: "#traceability" },
+      { label: "Features", href: "#features" },
+      { label: "Solutions", href: "#how-it-works" },
+      { label: "Why RAccelerator", href: "#deterministic" },
       { label: "Security", href: "#security" },
       { label: "FAQ", href: "#faq" },
     ] as NavLink[],
@@ -505,6 +504,19 @@ export const siteContent = {
           text: "Full 21 CFR Part 11 trail. Cryptographic hashing, timestamped operator logs, immutable records.",
           advantage: "Full 21 CFR Part 11 trail",
           guarantee: "Full 21 CFR Part 11 trail",
+        },
+      },
+      {
+        dimension: "Reproducibility",
+        genericAI: {
+          text: "Outputs vary between runs. The same device description can yield different classifications on different days.",
+          flaw: "Varies between runs",
+          risk: "high",
+        },
+        raccelerator: {
+          text: "100% reproducible. Identical inputs always produce identical outputs — every run, every time.",
+          advantage: "100% reproducible",
+          guarantee: "100% reproducible",
         },
       },
       {

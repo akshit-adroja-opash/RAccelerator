@@ -36,7 +36,7 @@ export function DeterministicCompare() {
           <div className="lg:col-span-7 space-y-4 reveal-right">
 
             {/* Dimension Tabs */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
               {data.sliderComparison.map((item, idx) => (
                 <button
                   key={idx}
