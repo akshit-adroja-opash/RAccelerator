@@ -7,7 +7,6 @@ import { StatsBand } from "@/components/StatsBand";
 import { Features } from "@/components/Features";
 import { HowItWorksSticky } from "@/components/HowItWorksSticky";
 import { DeterministicCompare } from "@/components/DeterministicCompare";
-import { TraceabilityGraph } from "@/components/TraceabilityGraph";
 import { ProofBento } from "@/components/ProofBento";
 import { Security } from "@/components/Security";
 import { FAQ } from "@/components/FAQ";
@@ -45,10 +44,7 @@ export default function Home() {
         {/* 5. Deterministic AI Comparison */}
         <DeterministicCompare />
 
-        {/* 6. Traceability Graph */}
-        <TraceabilityGraph />
-
-        {/* 7. Proof / Trust (Testimonials + Case Study) */}
+        {/* 6. Proof / Trust (Testimonials + Case Study) */}
         <ProofBento onOpenDemo={handleOpenDemo} />
 
         {/* 6. Security */}
